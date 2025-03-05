@@ -1,0 +1,11 @@
+services:
+  playz-chat-id-founder-bot:
+    build:
+      context: .
+    environment:
+      - TZ=Asia/Jerusalem
+    platform: linux/amd64
+    container_name: playz-chat-id-founder-bot
+    volumes:
+      - ./:/get-chat-id-bot
+    command: ["python", "main.py"]

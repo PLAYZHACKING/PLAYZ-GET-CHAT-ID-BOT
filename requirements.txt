@@ -1,0 +1,6 @@
+https://github.com/TelegramPlayGround/pyrogram/archive/e236fe8.zip
+PyroTgCrypto==1.2.7
+SQLAlchemy==2.0.32
+aiosqlite==0.20.0
+pydantic-settings==2.4.0
+httpx==0.27.2
