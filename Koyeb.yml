@@ -1,0 +1,9 @@
+name: playz-get-chat-id-bot
+services:
+  - name: bot
+    type: web
+    runtime: python
+    build:
+      commands:
+        - pip install -r requirements.txt
+    run: python bot.py
